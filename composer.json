@@ -23,11 +23,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"interneduclub\\Ckeditor\\": "./"
+			"Interneduclub\\Ckeditor\\": "./"
 		}
 	},
 	"require": {
 		"illuminate/support": "^5.0"
 	},
-	"minimum-stability": "dev"
+	"minimum-stability": "stable"
 }
