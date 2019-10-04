@@ -1,5 +1,5 @@
 {
-	"name": "unisharp/laravel-ckeditor",
+	"name": "interneduclub/laravel-ckeditor",
 	"description": "JavaScript WYSIWYG web text editor (for laravel).",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript", "laravel"],
@@ -11,8 +11,8 @@
 			"homepage": "http://cksource.com"
 		},
 		{
-			"name":  "UniSharp Ltd. (Composer Package Maintainer)",
-			"homepage": "http://www.unisharp.com"
+			"name":  "International Education Club",
+			"homepage": "https://www.internationaleducation.club"
 		}
 	],
 	"support": {
@@ -23,11 +23,11 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Unisharp\\Ckeditor\\": "./"
+			"interneduclub\\Ckeditor\\": "./"
 		}
 	},
 	"require": {
-		"illuminate/support": "~5.0"
+		"illuminate/support": "^5.0"
 	},
 	"minimum-stability": "dev"
 }
